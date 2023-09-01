@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-the total runtime is roughly 10 seconds, 
+the total runtime is roughly 10 seconds
 """
 
 
@@ -12,7 +12,7 @@ async_comprehension = __import__('1-async_comprehension').async_comprehension
 
 async def measure_runtime() -> float:
     '''
-    the total runtime is roughly 10 seconds, 
+    the total runtime is roughly 10 seconds,
     '''
 
     first_time = time()
