@@ -1,4 +1,6 @@
 import taskBlock from './1-block-scoped.js';
 
-console.log(taskBlock(true));
-console.log(taskBlock(false));
+test('returns the right values', () => {
+  expect(taskBlock(true)).toEqual([false, true]);
+  expect(taskBlock(false)).toEqual([false, true]);
+});
